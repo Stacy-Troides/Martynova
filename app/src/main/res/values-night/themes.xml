@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Kinopoisk" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimary">#00EE006F</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#AFB6B5</item>
-        <item name="colorSecondaryVariant">#B8BCBB</item>
+        <item name="colorSecondary">#D1D1D1</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
         <item name="colorOnSecondary">#FFFFFF</item>
         <!-- Customize your theme here. -->
     </style>
