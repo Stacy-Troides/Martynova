@@ -40,7 +40,6 @@ class FilmsListFragment : Fragment(R.layout.fragment_films_list) {
         binding.buttonGlass.setOnClickListener {
             viewModel.onSearchClicked(binding.search.text.toString())
         }
-
     }
 
     private fun initObservers() {
@@ -52,7 +51,6 @@ class FilmsListFragment : Fragment(R.layout.fragment_films_list) {
         viewModel.isError.observe(viewLifecycleOwner) {
             binding.emptyView.visibility = if (it) View.VISIBLE else View.GONE
             binding.recyclerView.visibility = if (it) View.GONE else View.VISIBLE
-
         }
 
         viewModel.listFilms.observe(viewLifecycleOwner) {
@@ -64,7 +62,6 @@ class FilmsListFragment : Fragment(R.layout.fragment_films_list) {
                     .commit()
             }
         }
-
     }
 
     private fun initRecyclerView() {
