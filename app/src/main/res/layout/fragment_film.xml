@@ -123,16 +123,16 @@
                 app:layout_constraintStart_toStartOf="@+id/textView"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-            <com.google.android.material.appbar.MaterialToolbar
-                android:id="@+id/appBarInfo"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@android:color/transparent"
-                app:navigationIcon="@drawable/ic_arrow"
-                tools:layout_editor_absoluteX="1dp"
-                tools:ignore="MissingConstraints">
-            </com.google.android.material.appbar.MaterialToolbar>
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        app:navigationIcon="@drawable/ic_arrow"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
